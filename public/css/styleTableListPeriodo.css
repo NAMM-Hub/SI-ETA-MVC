@@ -1,0 +1,59 @@
+  table{
+    color: #000;
+    font-size: 4mm;
+    border-collapse: collapse;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  
+  th{
+    padding: 3px 13px;
+    text-transform: uppercase;
+    border-bottom: solid;
+    border-left: solid;
+    border-color: rgba(050, 50, 080, 0.2);
+  }
+  
+  td{
+    padding: 8px;
+    border-bottom: solid;
+    border-right: solid;
+    border-left: solid;
+    border-color: rgba(050, 50, 080, 0.2);
+  }
+  
+  tbody tr:hover{
+    background: rgba(143, 440, 101, 0.4);
+  }
+
+  .main{
+  border: white;
+  margin-right: 2em;
+  margin-left: 0;
+  border-radius: 0 2em 0 0 ;
+  }
+
+
+  .container_tablelistPE{ /*Estilo de los bordes de tabla*/
+  border-radius: 0 2em 0 0 ;
+  overflow: hidden;
+  display: inline-block; 
+  border: solid;
+  border-color: rgba(88, 88, 88, 0.726);
+  }
+
+
+  .container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  
+  
+
+  
+
+  
+  

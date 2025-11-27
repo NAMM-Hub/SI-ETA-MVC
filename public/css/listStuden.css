@@ -1,0 +1,79 @@
+
+.message{
+  background: forestgreen;
+}
+
+.titleListStudent{
+  margin-left: 15rem;
+}
+
+table{
+  color: #000;
+  font-size: 12px;
+  border-collapse: collapse;
+  align-self: center;
+
+}
+
+thead{
+  background: rgba(243, 540, 301, 0.4);
+
+}
+
+th{
+  padding: 12px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: solid;
+  border-right: solid;
+  border-left: solid;
+  border-top: solid;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+td{
+  padding: 8px;
+  border-bottom: solid;
+  border-right: solid;
+  border-left: solid;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+tbody{
+  background: rgba(500, 500, 500, 0.7);;
+}
+
+tbody tr:hover{
+  background: rgba(143, 440, 101, 0.4);
+}
+
+.container_table{
+border: white;
+margin-left: 14rem;
+}
+
+.container{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  margin-left: 10·;
+}
+
+
+    .footer{
+      background: #f2f2f2;
+      padding: 2rem 0;
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 8px;
+      margin-left: -3%;
+      width: 167%;
+      font-family: georgia,times;
+    }
+
+.control{
+  padding: 6px 10px;
+  width: 200px;
+}
+
+

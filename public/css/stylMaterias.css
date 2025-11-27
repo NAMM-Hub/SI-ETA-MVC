@@ -1,0 +1,111 @@
+body{
+  font-family: arial, serift;
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  margin: 0 auto;
+  background-color: rgba(050, 50, 080, 0.2);
+  align-items: center;
+  min-height: 108vh;
+  display: flex;
+}
+
+p{
+  margin-bottom: 1.6em;
+}
+
+input[type="submit"]{
+  padding: 7px;
+  color: #fff;
+  background: #0098cb;
+  width: 320px;
+  margin: 1px 28%;
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+table{
+  color: #000;
+  font-size: 12px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-bottom: 18px;
+}
+
+.head_tabla{
+  background: rgba(243, 540, 301, 0.4);
+
+}
+
+th{
+  padding: 20px 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: solid;
+  border-right: solid;
+  border-left: solid;
+  border-top: solid;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+
+.body_tabla td{
+  padding: 2px;
+  border-bottom: solid;
+  border-right: solid;
+  border-left: solid;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+.body_tabla{
+  background: rgba(500, 500, 500, 0.7);
+}
+
+.body_tabla tr:hover{
+  background: rgba(143, 440, 101, 0.4);
+}
+
+.btn_materias{
+  text-decoration: none;
+  padding: 10px 70px;
+  border-radius: 45% ;
+  border: 1px solid #eee;
+  display: block;
+  background: forestgreen;
+  font-size: 1.1em;
+  color: white;
+ }
+
+ .tabla_btn_materias{
+  position: relative;
+ }
+
+ .tabla_btn_materias a:hover{
+  background: #434343;
+ }
+
+.container_table{
+border: white;
+}
+
+.container{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.main{
+  padding: 1rem;
+  margin-left: 25%;
+ 
+}
+
+.control{
+  padding: 6px 10px;
+  width: 200px;
+}
+
+

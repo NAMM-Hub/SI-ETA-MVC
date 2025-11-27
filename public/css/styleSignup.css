@@ -1,0 +1,98 @@
+body{
+  font-family: georgia, times, serift;
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  margin: 0;
+  background-color: rgba(050, 50, 080, 0.2);
+  text-align: center;
+}
+
+h1{
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+p{
+  margin-bottom: 1.6em: 
+}
+
+input[type="text"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 2px 36%;
+  margin-top: 2rem;
+
+}
+
+input[type="password"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 2px 36%;
+  margin-top: 2rem;
+}
+
+input[type="submit"]{
+  padding: 10px;
+  color: #fff;
+  background: #0098cb;
+  width: 320px;
+  margin: 2px 36%;
+  margin-top: 2rem;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+header{
+  border-bottom: 2px solid #eee;
+  background: white;
+  color: white;
+  width: 100%;
+  padding: 2rem 0;
+  position: inherit;
+  text-align: center;
+}
+
+header a{
+  color: #333;
+  text-decoration: none;
+  position: inherit;
+  bottom: 0;
+
+}
+
+.icn{
+  display: none;
+}
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main{
+  padding: 2rem;
+  margin-left: 16%;
+  margin-top: 0.3%; 
+}
+
+    .footer{
+      background: #f2f2f2;
+      padding: 2rem 0;
+      text-align: center;
+      margin-top: 20px;
+
+    }
+

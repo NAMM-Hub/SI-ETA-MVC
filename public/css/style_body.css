@@ -1,0 +1,99 @@
+html, body {
+     /* El html y body deben ocupar el 100% de la altura del viewport */
+    margin: 0;
+    padding: 0; /* Asegura que no haya padding por defecto que cause desbordamientos */
+    font-family: arial, sans-serif; /* Corregido 'serift' a 'sans-serif' */
+    color: #333;
+    font-size: 1.2rem;
+    background: rgba(200, 205, 210, 0.1);
+}
+
+/* Este es el contenedor principal que envuelve TODO el contenido de la página */
+/* ¡Cada página HTML debe tener solo UN div que envuelva header, main, footer! */
+/* Lo llamaremos .site-wrapper o puedes usar tu .container_MainAsistente / .container_mainAddPersona si lo haces bien único */
+/* Para simplificar, asumamos que .container_MainAsistente será el contenedor global para TODAS las páginas */
+
+.container_MainAsistente, /* Si este es tu contenedor principal para todas las páginas */
+.container_mainAddPersona, /* O si usas este otro en la otra página, necesita los mismos estilos */
+.containerMain, /* Y este para la página principal de inicio */
+.container_mainalertEnvioAsistente,
+.container_listAsistente,
+.container_MainAsistentePreguntasSeguridad,
+.container_mainCargarPeriodoEscolar,
+.container_ListPeriodoEscolar,
+.container_mainSuccesfull,
+.container_mainListEstudiante,
+.container_descargarListaEstudiante,
+.container_mainListProfesor,
+.container_addMaterias,
+.container_listMaterias,
+.container_mainConfirmacion_envio,
+.container_mainInfoProfesor{
+    display: flex; /* Convierte este contenedor en un flex container */
+    flex-direction: column; /* Apila header, main y footer verticalmente */
+    min-height: 100vh; /* Asegura que ocupe al menos la altura completa de la vista */
+    /* position: relative; /* Puedes mantenerlo si lo necesitas para posicionamiento de hijos, pero ya no para el footer fijo */
+    width: 100%;
+}
+
+/* Estilos para el área de contenido principal (donde va tu <main>) */
+/* TODOS los elementos <main> deben tener flex-grow: 1; para que ocupen el espacio restante */
+
+.main_Asistent,
+.main_addPersona,
+.mainAsistent, 
+.main_listAsistent,
+.main_AsistentPreguntaSeguridad,
+.main_periodoEscolar,
+.main_PeriodoEscolar,
+.main_ListProfe,
+.main_Materias,
+.main_ListMateria,
+.mainListEstud,
+.main_descargarListaEstudiantil,
+.main_mostrarInfo_profesor{
+    flex-grow: 1; /* Esto es CLAVE: hace que el main ocupe todo el espacio vertical disponible */
+    margin-top: 8em;
+    padding-bottom: 12em;
+    width: 100%;
+}
+.main,
+.main_profesor,
+.main_confirmarEnvio_registro,
+.main_materias_asignadas_profesor,
+.main_alertEnvioAsistente,
+.mainListEstud_profesor{
+    flex-grow: 1; /* Esto es CLAVE: hace que el main ocupe todo el espacio vertical disponible */
+    padding-top: 8em;
+    padding-bottom: 12em;
+    padding-left: 0.4em;
+}
+/* Ajuste para el footer */
+footer {
+    /* Ya no necesita position: absolute; porque el flexbox lo maneja */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    /* Otros estilos de tu footer */
+    padding: 15px 0; /* Ejemplo de padding */
+    text-align: center;
+}
+
+/* Otros estilos específicos de tu CSS... */
+/* REVISA todos los .main_... para sus padding-top y margin-left */
+/* Por ejemplo, si tu header tiene una altura fija (ej. 60px), puedes tener: */
+/* .main_Asistent {
+    padding-top: 60px; // Si el header es fijo
+    padding-left: 12px;
+    margin-bottom: 1px; // Revisa si este margin-bottom es realmente necesario
+} */
+/* Si tu header NO es fijo, entonces padding-top en main es solo para dar espacio visual al inicio */
+
+/* Remueve o ajusta los estilos de 'body' */
+/* body {
+    display: flex; /* REMOVER de aquí, mover al contenedor principal */
+    /* width: 100%; /* Redundante si html, body y el contenedor principal tienen height: 100% */
+    /* min-height: 100vh; /* Redundante si el contenedor principal lo tiene */
+    /*}
+
+
+/* Por ejemplo, si styleAddAsistente.css o IngresarEstudiante.css tienen body { display: flex; } */
+/* Si tu header_menu.php tiene estilos directamente, revísalos */

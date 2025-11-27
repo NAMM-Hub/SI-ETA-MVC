@@ -1,0 +1,32 @@
+.message{
+  border: 4px solid mediumseagreen;
+  background: rgba(500, 500, 500, 0.7);
+  border-width: 10px;
+  border-radius: 10%;
+  position: absolute;
+  margin-left: 40rem;
+}
+
+.container{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+    .footer{
+      background: #f2f2f2;
+      padding: 2rem 0;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 9.7%;
+      font-family: georgia, times;
+    }
+
+.control{
+  padding: 6px 10px;
+  width: 200px;
+}
+
+#container_main{
+  margin-left: 16%;
+}

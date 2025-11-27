@@ -1,0 +1,145 @@
+.message{
+  background: forestgreen;
+}
+
+.h5_subtituloNotaAdvertencia{
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+margin-left: 13.2em;
+width: 50%;
+background: rgba(225, 225, 200, 0.7);
+text-align: center;
+}
+
+.container_mainAlertEliminar{
+  background: rgba(225, 225, 0, 0.5);
+  padding-top: 7em;
+}
+
+table{
+  color: #000;
+  border-collapse: collapse;
+  align-self: center;
+  font-size: 17px;
+}
+
+thead{
+  background: rgba(243, 540, 301, 0.4);
+
+}
+
+th{
+  padding: 12px 15px;
+  border-bottom: 2px solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+td{
+  padding: 8px;
+  text-align: center;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+tbody{
+  background: rgba(500, 500, 500, 0.6);;
+}
+
+tbody tr:hover{
+  background: rgba(143, 440, 101, 0.4);
+}
+
+input[type="submit"]{
+  margin-left: 6px;
+  padding: 10px; 
+  top: 70%;
+  left: 50%;
+}
+
+.container_tableEliminarPeriodoEscolar{
+margin-top: 1em;
+margin-left: 15.6em;
+margin-right: 17.5em;
+border: solid;
+border-radius: 12px;
+border-color: rgba(1, 10, 50, 0.4);
+overflow: hidden;
+display: inline-block;
+}
+
+.container_table_eliminar_asistente{
+margin-top: 1em;
+margin-left: 14.6em;
+margin-right: 15.4em;
+border: solid;
+border-radius: 12px;
+border-color: rgba(1, 10, 50, 0.4);
+display: flex;
+}
+
+.container_table_eliminar_materia{
+margin-top: 1em;
+margin-left: 11.6em;
+border: solid;
+border-radius: 12px;
+border-color: rgba(1, 10, 50, 0.4);
+overflow: hidden;
+display: inline-block;
+}
+
+.container_table_eliminar_comunidad{
+margin-top: 1em;
+margin-left: 12.6em;
+border: solid;
+border-radius: 12px;
+border-color: rgba(1, 10, 50, 0.4);
+overflow: hidden;
+display: inline-block;
+}
+
+.container_table_eliminar_profesor{
+margin-top: 1em;
+margin-left: 14.6em;
+margin-right: 14.8em;
+border: solid;
+border-radius: 12px;
+border-color: rgba(1, 10, 50, 0.4);
+display: flex;
+}
+
+.container_table{
+margin-top: 1em;
+margin-left: 11.6em;
+margin-right: 10.8em;
+border: solid;
+border-radius: 12px;
+border-color: rgba(1, 10, 50, 0.4);
+overflow: hidden;
+display: inline-block;
+}
+
+.container{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  margin-left: 10·;
+}
+
+
+    .footer{
+      background: #f2f2f2;
+      padding: 2rem 0;
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 8px;
+      margin-left: -3%;
+      width: 167%;
+      font-family: georgia,times;
+    }
+
+.control{
+  padding: 6px 10px;
+  width: 200px;
+}
+
+

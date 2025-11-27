@@ -1,0 +1,9 @@
+.containerMain {
+  position: relative; /* Necesario para el posicionamiento absoluto del footer */
+  min-height: 100vh;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Hace que el footer ocupe todo el ancho del contenedor */
+}

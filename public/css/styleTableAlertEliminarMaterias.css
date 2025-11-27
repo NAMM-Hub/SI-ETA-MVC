@@ -1,0 +1,83 @@
+.message{
+  background: forestgreen;
+}
+
+/*Estilo de tabla de eliminar materia*/
+table{
+  color: #000;
+  font-size: 14px;
+  border-collapse: collapse;
+  align-self: center;
+
+}
+thead{
+  background: rgba(243, 540, 301, 0.4);
+
+}
+
+th{
+  padding: 12px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+td{
+  padding: 8px;
+  text-align: center;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+
+tbody{
+  background: rgba(500, 500, 500, 0.7);;
+}
+
+tbody tr:hover{
+  background: rgba(143, 440, 101, 0.4);
+}
+
+.container_table{
+border: solid;
+margin-top: 0;
+margin-left: 16.1rem;
+border-radius: 12px;
+margin-right: 11.5em;
+padding-bottom: 1em;
+border-color: rgba(1, 10, 50, 0.4);
+display: flex;
+min-height: 10vh;
+position: absolute;
+background: rgba(243, 540, 301, 0.4);
+}
+
+.container_buttons_deleted_materia{
+  border: white;
+margin-left: 18.4rem;
+padding-top: 7em;
+padding-bottom: 2em;
+}
+
+.container{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  margin-left: 10·;
+}
+
+
+    .footer{
+      background: #f2f2f2;
+      padding: 2rem 0;
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 8px;
+      margin-left: -3%;
+      width: 167%;
+      font-family: georgia,times;
+    }
+
+.control{
+  padding: 6px 10px;
+  width: 200px;
+}

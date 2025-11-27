@@ -1,0 +1,307 @@
+.message{
+  background: forestgreen;
+}
+
+.head_details{
+  text-transform: uppercase;
+  border-color: rgba(050, 50, 080, 0.2);
+  background: #5E98FF;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 5px;
+}
+
+#dynamic_message_area{
+  display: none; 
+  color: #cc0000;
+  margin-bottom: 15px;
+  border: solid mediumseagreen;
+  border-color: rgba(1, 1, 212, 0.24);
+  border-width: 10%;
+  border-radius: 10%;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: 64%;
+  position: absolute;
+  background:  rgba(1, 1, 212, 0.24);
+  font-weight: bold;
+  padding: 10px; 
+  border: 1px solid transparent; 
+  border-radius: 5px; 
+}
+
+
+#dynamic_message_area.message-error {
+    color: #cc0000; 
+    background-color: #ffe0e0; 
+    border-color: #ff9999;
+}
+
+#dynamic_message_area.message-info {
+    color: #0066cc; 
+    background-color: #e0f0ff; 
+    border-color: #99ccff;
+}
+
+strong{
+  font-size: 18px;
+  border:2px solid;
+  border-color: rgba(1, 10, 50, 0.1);
+  background: rgba(1, 10, 50, 0.2);
+  border-radius: 12px;
+  padding: 0.2em 2.2em;
+}
+
+label{
+  border-bottom: 2px dashed;
+  border-color: rgba(1, 10, 50, 0.2);
+  
+}
+
+table{
+  color: #000;
+  font-size: 16px;
+  border-collapse: collapse;
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+.table_persona{
+font-size: 17px;
+}
+
+thead{
+  background: rgba(243, 540, 301, 0.4);
+
+}
+
+th{
+  padding: 12px 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+td{
+  padding: 8px 16px;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+td:hover{
+  border-radius: 3px;
+  background: rgba(143, 440, 101, 0.4);
+}
+
+th:hover{
+  border-radius: 3px;
+  background: rgba(143, 440, 101, 0.4);
+}
+
+.container_table{
+display: flex;
+margin-top: 0;
+margin-left: 1.1rem;
+margin-bottom: 0;
+border-radius: 12px;
+overflow: hidden;
+display: inline-block;
+min-height: 10vh;
+background: rgba(243, 540, 301, 0.4);
+text-align: center;
+}
+
+.container_table_comunidad{
+border: solid;
+display: flex;
+margin-top: 0;
+margin-left: 17.1rem;
+border-radius: 12px;
+overflow: hidden;
+display: inline-block;
+border-color: rgba(1, 10, 50, 0.4);
+min-height: 10vh;
+background: rgba(243, 540, 301, 0.4);
+}
+
+.container_tableGuardarMateria{
+border: solid;
+border-radius: 12px;
+margin-left: 19.9rem;
+margin-right: 11.5em;
+margin-top: -1em;
+border-color: rgba(1, 10, 50, 0.4);
+overflow: hidden;
+display: inline-block;
+min-height: 10vh;
+position: absolute;
+background: rgba(243, 540, 301, 0.4);
+}
+
+.container_tableUpdateComunidad{
+border: solid;
+border-radius: 12px;
+margin-left: 17.8rem;
+margin-right: 17.5em;
+border-color: rgba(1, 10, 50, 0.4);
+overflow: hidden;
+display: inline-block;
+min-height: 10vh;
+background: rgba(243, 540, 301, 0.4);
+}
+
+
+.th_DatosIncorrect{
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.th_DatosActualizado{
+  background: rgba(143, 440, 101, 0.9);
+  width: 20em;
+}
+
+.container_cInputSubmit{
+border: white;
+width: 100%;
+padding-bottom: 2em;
+text-align: center;
+}
+
+.container_updateInputSubmi{
+border: white;
+width: 100%;
+padding-bottom: 2em;
+text-align: center;
+}
+
+
+.control{
+  padding: 6px 10px;
+  width: 200px;
+}
+
+
+/*Tablas de alerta de envio de datos del asistente*/
+
+.container_tableAA{
+border: solid;
+border-radius: 12px;
+margin-left: 8.1rem;
+margin-right: 11.5em;
+padding-bottom: 1em;
+border-color: rgba(1, 10, 50, 0.4);
+overflow: hidden;
+display: inline-block;
+min-height: 10vh;
+background: rgba(243, 540, 301, 0.4);
+}
+
+.container_AsistenteInputSubmit{
+border: white;
+width: 100%;
+padding-bottom: 2em;
+text-align: center;
+}
+
+/*Tablas de alerta para datos cuando es estudiante*/
+
+.container_selectAnoGrado{
+  border: white;
+  padding-left: 25rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/*Tablas de alerta de envio de datos para guardar periodo escolar*/
+
+.th_PeriodoEs{
+  padding: 12px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: solid;
+  border-right: solid;
+  border-left: solid;
+  border-top: solid;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+input[type="text"]{
+  font-size: 17px;
+  text-align: center;
+}
+
+input[type="submit"]{
+  margin-left: 6px;
+  padding: 10px; 
+  top: 70%;
+  left: 50%;
+}
+
+.container_inputSubmit{
+  padding-top: 6em;
+  margin-left: 15em;
+  justify-content: center;
+  align-items: center;
+  width: 52em;
+}
+
+.container_tablePeriodoEs{
+border: solid;
+margin-top: 0;
+margin-left: 12em;
+margin-right: 2em;
+border-radius: 12px;
+padding-bottom: 0;
+border-color: rgba(1, 10, 50, 0.4);
+min-height: 10vh;
+position: absolute;
+background: rgba(243, 540, 301, 0);
+}
+
+
+/*Tablas de alerta de envio de datos para guardar materias*/
+
+.th_gMateria{
+  padding: 12px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: solid;
+  border-right: solid;
+  border-left: solid;
+  border-top: solid;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+
+
+/*Tablas de alerta de confirmacion para eliminar periodo escolar*/
+.tabla_EliminarperiodoEscolar{
+  color: #000;
+  font-size: 17px;
+  border-collapse: collapse;
+  margin-left: 98.2%;
+  left: 50%;
+}
+
+.td_confirmarEliminarPeriodoEscolar{
+  text-align: center;
+}
+
+.th_PeriodoEscoEliminar{
+  padding: 12px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: solid;
+  border-right: solid;
+  border-left: solid;
+  border-top: solid;
+  border-color: rgba(050, 50, 080, 0.2);
+}
+
+.container_tableEliminarPeriodoEscolar{
+border: white;
+overflow: hidden;
+display: inline-block;
+justify-content: center;
+align-items: center;
+width: 500px;
+}

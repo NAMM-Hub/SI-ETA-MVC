@@ -1,0 +1,15 @@
+
+.alertEnvioMateria{
+	background-image: url("image/confirmacion.png");
+	background-repeat: no-repeat;
+	background-position: -2em;
+	background-attachment: scroll;
+	background-size:contain;
+	background-size: 104% 100%;
+}
+
+img{
+	width: 17%;
+	height: 17%;
+	
+}

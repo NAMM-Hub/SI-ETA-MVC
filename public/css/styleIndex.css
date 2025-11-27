@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+body{
+	background-image: url(im-user-away.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-attachment: fixed;
+}
+
+
+input[type="submit"]{
+	color: #fff;
+	background: #0098cb;
+	width: 220px;
+	height: 220px;
+	border: double 40px white;
+	border-radius: 170px;
+	cursor: pointer;	
+}
+
+input[type="submit"]:hover {
+	background-color: #00b8eb;
+}
+
+header{
+	border-bottom: 2px solid #eee;
+	padding: 20px 0;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+header a {
+	text-decoration: none;
+	color: #333;
+}

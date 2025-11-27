@@ -1,0 +1,23 @@
+.message{
+  border: 4px solid mediumseagreen;
+  background: rgba(500, 500, 500, 0.7);
+  border-width: 10px;
+  border-radius: 10%;
+  position: absolute;
+  margin-left: 40rem;
+}
+
+.container{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+
+
+.control{
+  padding: 6px 10px;
+  width: 200px;
+}
+
+

@@ -1,0 +1,35 @@
+  table{
+    color: #000;
+    font-size: 4mm;
+    border-collapse: collapse;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  
+  th{
+    padding: 0 13px;
+    text-transform: uppercase;
+
+   }
+  
+  td{
+    padding: 8px;
+  }
+  
+  tbody{
+    background-position: center;
+  }
+  
+  tbody tr:hover{
+    background: rgba(0, 0, 0, 0);
+  }
+  
+
+  
+
+  
+
+  
+  

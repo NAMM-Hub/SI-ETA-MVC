@@ -1,0 +1,43 @@
+/* Estilo del contenedor principal */
+.dashboard-grid {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Crea columnas flexibles */
+    gap: 20px;
+    padding: 20px;
+}
+
+.dashboard-grid_list {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Crea columnas flexibles */
+    gap: 10px;
+    padding: 15px;
+}
+
+/* Estilo de cada tarjeta */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 2px;
+}
+.card_table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin-right: 1px;
+    margin-left: 7px;
+    margin-bottom: 1px;
+}
+
+/* Estilo para los números grandes */
+.data-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #007bff; /* Un color de acento, puedes cambiarlo */
+    margin: 0;
+}
+```

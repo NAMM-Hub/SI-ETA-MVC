@@ -1,0 +1,27 @@
+.alertEnvio,
+.alertEnvioAsistent,
+.body_ConfirmarEnvioMaterias,
+.alertEnvioPeriodo,
+.Confirmar_EliminarPeriodoEscolar,
+.alert_eliminarAsistente{
+background: rgba(1, 1, 212, 0.04)
+}
+
+.image{
+	width: 20%;
+	height: 57%;	
+}
+
+.aceptado{	
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+.aceptado_size{
+	width: 80%;
+	height: 67%;
+}
+img{
+	width: 17%;
+	height: 17%;
+}

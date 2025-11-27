@@ -1,0 +1,25 @@
+html{
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+    font-family: georgia, times, serift;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin-top: 6em;
+    margin-bottom: -8px;
+    background-color: rgb(255, 255, 255);
+  }
+
+.mainMaterias{
+  margin-left: 2em;
+
+}
+
+  .message{
+    background: forestgreen;
+  }
+  
+  

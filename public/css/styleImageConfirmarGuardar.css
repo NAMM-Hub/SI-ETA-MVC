@@ -1,0 +1,46 @@
+/*Imagen de confirmar para Guardar de asistente*/
+
+.alertEnvioAsistent{
+	background-image: url("image/confirmacion.png");
+	background-repeat: no-repeat;
+	background-position: -2em;
+	background-attachment: scroll;
+	background-size:contain;
+	background-size: 104% 100%;
+}
+
+/*Imagen de confirmar para guardar periodo escolar*/
+.alertEnvioPeriodo{
+	background-image: url("image/confirmacion.png");
+	background-repeat: no-repeat;
+	background-position: -2em;
+	background-attachment: scroll;
+	background-size:contain;
+	background-size: 104% 100%;
+}
+
+/*Imagen de confirmar para eliminar periodo escolar*/
+.Confirmar_EliminarPeriodoEscolar{
+	background-image: url("image/confirmacion.png");
+	background-repeat: no-repeat;
+	background-position: -2em;
+	background-attachment: scroll;
+	background-size:contain;
+	background-size: 104% 100%;
+}
+
+/*Imagen de confirmar para guardar materia*/
+.body_ConfirmarEnvioMaterias{
+	background-image: url("image/confirmacion.png");
+	background-repeat: no-repeat;
+	background-position: -2em;
+	background-attachment: scroll;
+	background-size:contain;
+	background-size: 104% 100%;
+}
+
+img{
+	width: 17%;
+	height: 17%;
+	
+}

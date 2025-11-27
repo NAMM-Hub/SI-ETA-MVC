@@ -1,0 +1,7 @@
+[2025-11-21 14:13:10] Error al ejecutar la consulta de personas para insertar profesor: Column 'fecha_nacimiento' cannot be null
+[2025-11-21 14:14:50] Error al ejecutar la consulta de personas para insertar profesor: Column 'fecha_nacimiento' cannot be null
+[2025-11-21 14:37:40] Error al ejecutar la consulta de ubicación para insertar profesor: Cannot add or update a child row: a foreign key constraint fails (`php_login_database`.`ubicacion`, CONSTRAINT `relacion_ubicacion_estado` FOREIGN KEY (`id_estado`) REFERENCES `estados` (`id_estados`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-11-21 14:56:12] Debug: Insertando para profesor ID: 290
+[2025-11-21 14:56:12] Debug: Insertando para materias ID: 62
+[2025-11-21 20:25:02] Error en ejecutar la consulta para actualizar ubicacion profesor: Cannot add or update a child row: a foreign key constraint fails (`php_login_database`.`ubicacion`, CONSTRAINT `relacion_ubicacion_comunidad` FOREIGN KEY (`id_comunidad`) REFERENCES `comunidades` (`id_comunidad`))
+[2025-11-26 15:02:13] Error al ejecutar la consulta para periodo escolar: Duplicate entry '2024' for key 'ano_periodo1'
