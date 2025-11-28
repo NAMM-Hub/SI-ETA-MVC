@@ -33,12 +33,12 @@ $rutas = [
     }
 });
 
-define('BASE_URL', '/SI-ETA_MVC/');
+define('BASE_URL', '/SI-ETA-MVC/');
 require_once __DIR__ . '/../app/helpers/UrlHelper.php';
 
 // 1. Limpiamos la URL
 $uri = $_SERVER['REDIRECT_URL'] ?? '/';
-$base_path = '/SI-ETA_MVC/';
+$base_path = '/SI-ETA-MVC/';
 
 // Sanear y limpiar la URI. Usamos trim para eliminar / al inicio y final.
 $clean_uri = str_replace($base_path, '', $uri);

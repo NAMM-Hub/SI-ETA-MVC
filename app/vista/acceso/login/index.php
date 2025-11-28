@@ -30,7 +30,7 @@ require_once __DIR__ . '/../../_partials/_headLogin.php';
         ?>
 <div class="container_table">
    
-<form action="/SI-ETA_MVC/login/login" method="post">
+<form action="/SI-ETA-MVC/login/login" method="post">
      <div class="card">
         <h2>Iniciar sesión</h2>
     <input type="text" name="nombre_usuario" pattern="[A-Z-a-z0-9]{1,15}"  placeholder="Ingresar nombre de usuario" title="Escriba el nombre de usuario colocó al registrarse" required autocomplete="off">
@@ -43,7 +43,7 @@ require_once __DIR__ . '/../../_partials/_headLogin.php';
         <a href="<?php echo BASE_URL;?>login/olvidoContrasena" class="recovery_a">Recuperar contraseña</a>
     </div>
     <div class="container_imagen_login">
-        <img src="/SI-ETA_MVC/public/css/im-user-away.png" name="icon" class="image_login">
+        <img src="/SI-ETA-MVC/public/css/im-user-away.png" name="icon" class="image_login">
     </div>
 
 </form>
